@@ -1,0 +1,284 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat";
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+header {
+  background-color: #5b82c3;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+header h1 {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+} */
+
+/* Contents of original CSS for HTML page start here  */
+body{
+    font-family: "Montserrat";
+  
+    /*you can have all of your body text-align: centre; if you do so, delete other instances of this porperty*/
+  }
+  
+  h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  }
+  
+  p{
+    color: #8f8f8f;
+  }
+  
+  /* Headings */
+  .big-heading{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  .pricing-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  /* containers */
+  .container-fluid{
+  padding: 3% 15% 7%;
+  }
+  
+  
+  /* Nav Bar */
+  
+  .navbar{
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand{
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item{
+    padding: 0 18px;
+  }
+  
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat"
+  }
+  
+  /* Title Section  */
+  #title{
+    background-color: #5b82c3;
+    color: #fff;
+  }
+  
+  /* Title Image Section */
+  .title-img{
+  
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .triangle-logo {
+      width: 0;
+      height: 0;
+      border-left: 40px solid transparent;
+      border-right: 40px solid transparent;
+      border-bottom: 80px solid #fff;
+      box-shadow: 5px;
+  
+  }
+  
+  .box-logo{
+    color: black;
+    background: #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  /* Download Buttons */
+  .download-button{
+    margin: 5% 3% 5% 0%;
+  }
+  
+  /* Features Section */
+  #features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+  }
+  
+  /* Events Button  */
+  
+  .events-button-section{
+    text-align: center;
+  }
+  .events-btn{
+    /* color: #8f8f8f!important; */
+    background-color: #4874bc!important;
+  
+  }
+  .events-btn:hover{
+    background-color: #5b82c3!important;
+  }
+  
+  .feature-title{
+    font-size: 1.5rem;
+  }
+  
+  .feature-box{
+    text-align: center;
+    padding: 5%;
+  }
+  
+  .icon{
+    color: #4874bc;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover{
+    color: #5b82c3;
+  }
+  
+  /* Testimonials Section  */
+  .activities-title{
+    padding-top: 5%;
+  }
+  
+  #testimonials{
+  
+    background-color: #4874bc;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .testimonial-image{
+    border-radius: 100%;
+    margin: 20px;
+    /* height: 100px; */
+    width: 10%;
+  }
+  
+  
+  .carousel-item{
+      padding: 7% 15%;
+  }
+  /* Press Section  */
+  
+  #press{
+    background-color: #4874bc;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  /* Pricing Section */
+  #pricing{
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .pricing-column{
+    padding: 3% 2%;
+  
+  }
+  
+  /* TODO: make sure you make the image responsive */
+  /* @@media (max-width: 1028px) {
+  
+  #title{
+    text-align: center;
+  } */
+  
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  
+  
+  
+  /* CTA Section  */
+  #cta{
+  background-color: #5b82c3;
+  text-align: center;
+  
+  }
+  
+  .cta-font{
+    color: #fff;
+    padding: 7% 15%;
+  
+  }
+  
+  /* Footer Section  */
+  .icon-footer{
+    color: grey;
+    margin-bottom: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .icon-footer:hover{
+    color: #5b82c3;
+  }
+  
+  /* contact form style */
+  .contact-form{
+    padding-bottom: 6%;
+  }
+  
+  #footer{
+  text-align: center;
+  padding: 60px;
+  
+  }
+  
+  /* Contents of original CSS for HTML page end here  */

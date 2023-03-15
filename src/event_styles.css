@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  /* background-image: url("/background.jpg");
+  background-color: #e4e4e4;
+  background-size: 100%;
+  padding: 0 16px; */
+}
+
+header {
+  background-color: #5b82c3;
+  margin: auto -16px;
+  padding: 16px 25px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.2px;
+  word-spacing: 2px;
+  vertical-align: middle;
+}
+
+footer {
+  background-color: #5b82c3;
+  position:absolute;
+  width: 100%;
+  right: 0.1px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+footer h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  text-shadow: 2px 2px rgba(105, 105, 105, 0.5);
+}
+
+
+.logo {
+  position: absolute;
+  margin: 10px;
+  width: 35px;
+  top: 7px;
+}
+
+.create-view-elements {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  margin-top: 3vh;
+}
+
+.create-view-elements h1 {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 500;
+  color: white;
+  text-shadow: 2px 2px rgba(105, 105, 105, 0.5);
+}
+
+.create-view-elements h2 {
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 500;
+  color: white;
+  text-shadow: 2px 2px rgba(105, 105, 105, 0.5);
+}
+
+.create-view-elements a.link {
+  text-decoration: none;
+  color: white;
+}
+
+.create-view-elements a.link:hover {
+  color: rgba(175, 175, 175, 0.082);;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 650%;
+  padding-top: 1vh;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 20px;
+  text-shadow: 4px 4px rgba(121, 121, 121, 0.5);
+}
+
+.search-box {
+  margin: auto;
+  margin-top: 3vh;
+  position: relative;
+  width: 450px;
+  height: 50px;
+  padding: 9px 2px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.search-elements {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.search {
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 0px 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: #424242;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  text-align: left;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.material-icons {
+  font-size: 30px;
+  color: #424242;
+  vertical-align: middle;
+  opacity: 0.75;
+}
+
+.material-icons:hover { 
+  color: #023a5c;
+}
+
+.category{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%
+}
+
+.category h1 {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  color: white;
+  margin-top: 2vh;
+  text-shadow: 2px 2px rgba(105, 105, 105, 0.5);
+}
+
+.category h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  color: white;
+  margin-top: 2.5vh;
+  text-align: right;
+  margin-right: 8vw;
+  text-shadow: 2px 2px rgba(105, 105, 105, 0.5);
+}
+
+.category a.link {
+  text-decoration: none;
+  color: white;
+}
+
+.category a.link:hover {
+  text-decoration: none;
+  color: rgba(175, 175, 175, 0.082);;
+}
+
+.event-container {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 11vw 0;
+  margin-top: 1.5vh;
+  padding-bottom: 5vh;
+}
+
+.event-box {
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  margin: 16px;
+  float: bottom;
+}
+
+.event-box a.link {
+  text-decoration: none;
+}
+
+.event-box img{
+  height: 10vw;
+  border-radius: 20px;
+  margin-top: 0.5vw;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  box-shadow: 0 2px 5px rgb(170, 170, 170);
+}
+
+.event-box h1 { 
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  margin-top: 0.2vw;
+}
+
+.event-box h2 { 
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
